@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kim McKenzie | Portfolio</title>
+ <link rel="stylesheet" href="css/css/style.css">
+
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="logo" href="#top" aria-label="Back to top">KM</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#github">GitHub</a></li>
+
+        <li>
+          <a class="github" href="https://github.com/kimmckenzie76-jpg" target="_blank" rel="noopener">
+            My GitHub
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <section class="hero">
+  <div class="hero-media">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="images/workspace.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <blockquote class="quote">
+    “The computer programmer is a creator of universes for which he alone is the lawgiver.”
+    <span class="quote-author">— Joseph Weizenbaum</span>
+  </blockquote>
+
+  <h1>Welcome! I am Kim McKenzie.</h1>
+
+  <p>
+    I am an operations leader with over 20 years of experience leading teams to success.
+    I decided to learn more about AI and what goes on behind the scenes, which led me to pursue
+    web development and coding. I am a developer in progress who enjoys learning, building,
+    and improving every day.
+  </p>
+
+  <p>
+    I enjoy turning ideas into simple, user-friendly web experiences and continuously improving my
+    technical skills.
+  </p>
+
+  <div class="hero-buttons">
+    <a class="btn" href="#projects">View Projects</a>
+    <a class="btn btn-outline" href="#contact">Contact Me</a>
+  </div>
+</section>
+
+  </header>
+
+  <main>
+   <section class="section split" id="about">
+
+  <div class="split-media">
+    <img src="images/workspace.jpg" alt="Workspace setup for web development" />
+  </div>
+
+  <div class="split-content">
+    <h2>About</h2>
+    <p>
+      I am a detail-oriented professional with strong operations and leadership experience,
+      currently building web development skills through hands-on projects. I enjoy creating
+      organized layouts, clear navigation, and user-friendly pages, and I am interested in
+      learning website animation in the future.
+    </p>
+
+    <p class="small">
+      Skills: HTML • CSS • Bootstrap • Accessibility basics • Git/GitHub
+    </p>
+  </div>
+
+</section>
+
+
+   <section id="projects" class="projects">
+  <h2>Projects</h2>
+  <p class="projects-intro">
+    Here are a few projects I’ve built while learning web development. More coming soon!
+  </p>
+
+  <div class="projects-grid">
+    <!-- Project 1 -->
+<article class="project-card">
+  <img
+    src="images/project1.jpg"
+    alt="group of employees working on several projects"
+  />
+  <div class="project-content">
+    <h3>One-Page Website</h3>
+    <p>
+      A responsive one-page layout featuring navigation, sections, and accessible design basics.
+    </p>
+    <div class="project-links">
+      <a
+        class="btn btn-outline btn-small"
+        href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/One-Page%20Website"
+        target="_blank"
+        rel="noopener"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+</article>
+
+
+    <!-- Project 2 -->
+    <article class="project-card">
+      <img
+        src="images/project2.jpg"
+        alt="Flowers so beautifully displayed"
+      />
+      <div class="project-content">
+        <h3>Simple Recipes</h3>
+        <p>
+          A multi-section site with navigation, layout styling, and an About section.
+        </p>
+        <div class="project-links">
+          <a
+            class="btn btn-outline btn-small"
+            href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/Simple-Recipes"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+   <article class="project-card">
+  <img src="images/project3.jpg" alt="technical code during the learning phases" />
+  <div class="project-content">
+    <h3>Academy Cinemas</h3>
+    <p>A Bootstrap-based page with custom styling and a responsive layout.</p>
+
+    <div class="project-links">
+      <a class="btn btn-outline btn-small"
+         href="https://github.com/kimmckenzie76-jpg/HTML-AND-CSS-PROJECTS/tree/main/Academy-Cinemas"
+         target="_blank" rel="noopener">
+        GitHub
+      </a>
+    </div>
+  </div>
+</article>
+
+      </div>
+    </section>
+
+<section class="section split" id="github">
+
+  <div class="split-media">
+    <img src="images/workspace.jpg" alt="Computer workspace with code on screen" />
+  </div>
+
+  <div class="split-content">
+    <h2>GitHub</h2>
+    <p>You can view more of my coding projects on GitHub:</p>
+
+    <a class="btn" href="https://github.com/kimmckenzie76-jpg" target="_blank" rel="noopener">
+      Visit My GitHub
+    </a>
+  </div>
+
+</section>
+
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+
+      <form class="contact-form" action="#" method="post">
+        <label>
+          Name
+          <input type="text" name="name" autocomplete="name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button class="btn" type="submit">Send</button>
+
+        <p class="small note">
+          *This form is for practice (no backend yet). You can also reach me on GitHub.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Kim McKenzie</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
